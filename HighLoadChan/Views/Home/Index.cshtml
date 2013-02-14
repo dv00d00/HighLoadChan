@@ -1,0 +1,22 @@
+﻿@model HighLoadChan.Core.BoardPageModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<ul>
+
+@foreach (var thread in Model.Threads)
+{
+    <li>
+        @thread.Name
+        <ul>
+            @foreach (var post in thread.Posts)
+            {
+                <li>@post.Content</li>
+            }
+        </ul>
+    </li>
+}
+
+</ul>
