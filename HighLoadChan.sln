@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighLoadChan.Storage", "Hig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighLoadChan.Infrastructure", "HighLoadChan.Infrastructure\HighLoadChan.Infrastructure.csproj", "{200C8056-BE46-43C6-A07B-01B258A9E497}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighLoadChan.Presentation.MVC4", "HighLoadChan.Presentation.MVC4\HighLoadChan.Presentation.MVC4.csproj", "{7250EA1D-542C-48A6-BD87-83D9D3A7D8D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{200C8056-BE46-43C6-A07B-01B258A9E497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200C8056-BE46-43C6-A07B-01B258A9E497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200C8056-BE46-43C6-A07B-01B258A9E497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7250EA1D-542C-48A6-BD87-83D9D3A7D8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7250EA1D-542C-48A6-BD87-83D9D3A7D8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7250EA1D-542C-48A6-BD87-83D9D3A7D8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7250EA1D-542C-48A6-BD87-83D9D3A7D8D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
